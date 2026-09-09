@@ -1,6 +1,7 @@
 .text
 .globl main
 main:
+    
     li x20, 5
     li x21, 0
 
