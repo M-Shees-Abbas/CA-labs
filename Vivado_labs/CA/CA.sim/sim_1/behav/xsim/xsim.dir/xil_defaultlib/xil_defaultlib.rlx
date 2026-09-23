@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/ma11212/CA lab/CA-labs/Vivado labs/CA/CA.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/ma11212/Downloads/clock_divider.v,1790151752,verilog,,C:/Users/ma11212/Downloads/debouncer.v,,clock_divider,,,,,,,,
+C:/Users/ma11212/Downloads/debouncer.v,1790151742,verilog,,C:/Users/ma11212/Downloads/leds.v,,debouncer,,,,,,,,
+C:/Users/ma11212/Downloads/leds.v,1790154536,verilog,,C:/Users/ma11212/Downloads/switches.v,,leds,,,,,,,,
+C:/Users/ma11212/Downloads/skeleton_top_fsm.v,1790154536,verilog,,,,top_fsm_system,,,,,,,,
+C:/Users/ma11212/Downloads/switches.v,1790154536,verilog,,C:/Users/ma11212/Downloads/skeleton_top_fsm.v,,switches,,,,,,,,
