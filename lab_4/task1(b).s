@@ -1,5 +1,5 @@
-    .text
-    .globl main
+.text
+.globl main
 
 main:
     li     x10, 3
@@ -9,7 +9,7 @@ main:
 fact:
     addi   x5 , x0 , 1    
 
-L1:
+L1: 
     bge    x0 , x10 , exit #if (0 >= n), exit loop
     mul    x5 , x5 , x10   
     addi   x10 , x10 , -1  #n = n - 1
