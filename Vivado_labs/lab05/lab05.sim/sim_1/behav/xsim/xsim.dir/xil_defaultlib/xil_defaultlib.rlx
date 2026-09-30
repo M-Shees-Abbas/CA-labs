@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/User/Desktop/Files/lab05/lab05.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/User/Desktop/Files/lab05/lab05.srcs/sim_1/new/lab5_tb.v,1790757558,verilog,,,,lab5_tb,,,,,,,,
+C:/Users/User/Desktop/Files/lab05/lab05.srcs/sources_1/new/lab5_final.v,1790758774,verilog,,C:/Users/User/Desktop/Files/lab05/lab05.srcs/sim_1/new/lab5_tb.v,,clock_divider;debouncer;leds;switches;top_fsm_system,,,,,,,,
