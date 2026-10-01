@@ -20,15 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ADD(
-    input a,
-    input b,
-    input cin,
-    input sub,
+module full_adder (
+    input  a,
+    input  b,
+    input  cin,
     output sum,
     output cout
-    );
-    wire b_in = b^sub;
-    assign sum = a^b_in ^cin;
-    assign cout = (a&b_in)|(cin & (a^b_in));
+);
+    assign sum  = a ^ b ^ cin;
+    assign cout = (a & b) | (cin & (a ^ b));
 endmodule

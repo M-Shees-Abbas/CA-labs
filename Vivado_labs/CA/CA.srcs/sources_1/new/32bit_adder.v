@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 09/30/2026 12:27:57 PM
+// Create Date: 10/01/2026 04:37:35 PM
 // Design Name: 
-// Module Name: logical_op
+// Module Name: 32bit_adder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module logical_op(
+module 32bit_adder(
 
     );
 endmodule
