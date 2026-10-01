@@ -59,7 +59,7 @@ module alu_32bit(
     sub_32bit sub(
         .a(a),
         .b(b),
-        .sum(sub_out),
+        .diff(sub_out),
         .cout(sub_cout)
     );
     
