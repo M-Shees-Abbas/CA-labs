@@ -39,7 +39,7 @@ module alu_32bit(
     localparam SRL_OP = 3'd6;
     
     wire [31:0]a_prev = {a[30:0], 1'b0};
-    wire [31:0]a_next = {1'b0, a[30:0]};
+    wire [31:0 ]a_next = {1'b0, a[30:0]};
     
     wire [31:0]add_out, sub_out;
     wire add_cout, sub_cout;
