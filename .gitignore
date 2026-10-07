@@ -1,0 +1,7 @@
+Vivado_labs/CA/CA.runs/
+Vivado_labs/CA/CA.cache/
+Vivado_labs/CA/CA.sim/
+Vivado_labs/CA/CA.hw/
+Vivado_labs/CA/CA.ip_user_files/
+Vivado_labs/CA/*.jou
+Vivado_labs/CA/*.log

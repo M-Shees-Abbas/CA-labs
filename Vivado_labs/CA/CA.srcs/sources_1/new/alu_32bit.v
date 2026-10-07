@@ -21,12 +21,13 @@
 
 
 module alu_32bit(
-    input [31:0]a,
-    input [31:0]b,
-    input cin,
-    input [3:0]ALU_op,
+    input wire [31:0]a,
+    input wire [31:0]b,
+    input wire cin,
+    input wire [3:0]ALU_op,
     output reg cout,
-    output reg result
+    output reg [31:0]result,
+    output reg zero
     
     );
     localparam AND_OP = 3'd0;
@@ -44,8 +45,8 @@ module alu_32bit(
     wire add_cout, sub_cout;
     
     wire [31:0]AND, OR, XOR;
-    assign AND = a & b;
-    assign OR = a | b;
+    assign AND = a&b;
+    assign OR = a|b;
     assign XOR = a^b;
     
     adder_32bit adder(
@@ -66,6 +67,14 @@ module alu_32bit(
     
     always @(*) begin
         cout = 1'b0;
+        if (sub_out == 32'd0)begin
+            zero = 1'b1;
+        end 
+        else begin
+            zero = 1'b0;
+        end 
+
+        
         case(ALU_op)
             AND_OP: result = AND;
             OR_OP: result = OR;
