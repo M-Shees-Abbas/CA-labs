@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10/01/2026 04:37:35 PM
+// Create Date: 10/14/2026 01:02:52 PM
 // Design Name: 
-// Module Name: 32bit_adder
+// Module Name: RF_ALU_FSM_tb
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module 32bit_adder(
-
+module RF_ALU_FSM_tb(
     );
+    
+    reg        clk;
+    reg        rst;
+    
+
+
+
+
 endmodule

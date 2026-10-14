@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10/07/2026 02:09:48 PM
+// Create Date: 09/30/2026 12:20:38 PM
 // Design Name: 
-// Module Name: ALU_top
+// Module Name: ADD
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ALU_top(
-
-    );
+module full_adder (
+    input  a,
+    input  b,
+    input  cin,
+    output sum,
+    output cout
+);
+    assign sum  = a ^ b ^ cin;
+    assign cout = (a & b) | (cin & (a ^ b));
 endmodule

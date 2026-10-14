@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 14 13:03:26 2026
+# Process ID: 28704
+# Current directory: C:/Users/ma11212/CA lab/CA-labs/Vivado_labs/lab05
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14384 C:\Users\ma11212\CA lab\CA-labs\Vivado_labs\lab05\lab05.xpr
+# Log file: C:/Users/ma11212/CA lab/CA-labs/Vivado_labs/lab05/vivado.log
+# Journal file: C:/Users/ma11212/CA lab/CA-labs/Vivado_labs/lab05\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ma11212/CA lab/CA-labs/Vivado_labs/lab05/lab05.xpr}
+update_compile_order -fileset sources_1

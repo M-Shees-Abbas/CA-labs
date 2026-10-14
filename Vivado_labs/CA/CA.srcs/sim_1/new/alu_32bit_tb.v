@@ -30,6 +30,7 @@ wire [31:0] result_t;
 wire zero_t;
 
 alu_32bit dut(
+    .clk(clk),
     .a(a_t),
     .b(b_t),
     .cin(cin_t),

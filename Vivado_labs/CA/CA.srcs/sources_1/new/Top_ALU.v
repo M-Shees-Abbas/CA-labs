@@ -21,6 +21,7 @@
 
 
 module Top_ALU(
+    input  clk,
     input  [15:0] sw,
     input         btnC, btnU, btnL, btnR, btnD,
     output [15:0] led
@@ -29,6 +30,7 @@ module Top_ALU(
     wire        cout;
 
     alu_32bit alu(
+        .clk(clk),
         .a({24'b0, sw[7:0]}),      // a = low 8 switches
         .b({24'b0, sw[15:8]}),     // b = high 8 switches
         .cin(btnC),

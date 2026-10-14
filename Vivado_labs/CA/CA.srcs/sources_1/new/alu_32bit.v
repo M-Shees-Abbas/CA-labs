@@ -21,6 +21,7 @@
 
 
 module alu_32bit(
+    input clk,
     input wire [31:0]a,
     input wire [31:0]b,
     input wire cin,
@@ -65,7 +66,7 @@ module alu_32bit(
     );
     
     
-    always @(*) begin
+    always @(posedge clk) begin
         cout = 1'b0;
         if (sub_out == 32'd0)begin
             zero = 1'b1;
