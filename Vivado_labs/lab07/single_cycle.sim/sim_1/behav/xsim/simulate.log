@@ -1,0 +1,16 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+--- Test Case i: Write to x5 ---
+x5 ReadData1 = 0xdeadbeef, ReadData2 = 0xdeadbeef (Expected: 0xDEADBEEF)
+--- Test Case ii: Attempt write to x0 ---
+x0 ReadData1 = 0x00000000, ReadData2 = 0x00000000 (Expected: 0x00000000)
+--- Test Case iii: Concurrent Read Ports ---
+rs1 (x5) ReadData1 = 0xdeadbeef (Expected: 0xDEADBEEF)
+rs2 (x10) ReadData2 = 0x12345678 (Expected: 0x12345678)
+--- Test Case iv: Overwrite Register x5 ---
+x5 ReadData1 after overwrite = 0x87654321 (Expected: 0x87654321)
+--- Test Case v: Reset Behavior ---
+After Reset - x5 ReadData1 = 0x00000000 (Expected: 0x00000000)
+After Reset - x10 ReadData2 = 0x00000000 (Expected: 0x00000000)
+--- All Tests Completed ---
+$finish called at time : 92 ns : File "C:/Users/User/Desktop/Files/single_cycle/single_cycle.srcs/sim_1/new/single.v" Line 151
